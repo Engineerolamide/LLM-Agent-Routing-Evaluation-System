@@ -1,32 +1,5 @@
 # LLM Agent Routing & Evaluation System
-flowchart TD
 
-A[User Input] --> B[Input Router / Classifier]
-
-B --> C1[Motivational Agent Prompt]
-B --> C2[Advisory Agent Prompt]
-B --> C3[Informational Agent Prompt]
-
-C1 --> D[LLM Response Generation]
-C2 --> D
-C3 --> D
-
-D --> E[Response Output]
-
-E --> F[Logging Layer]
-F --> G[Evaluation Module]
-
-G --> H1[Consistency Check]
-G --> H2[Instruction Adherence]
-G --> H3[Failure Detection: Hallucination / Tone Drift]
-
-H1 --> I[Prompt Refinement Loop]
-H2 --> I
-H3 --> I
-
-I --> C1
-I --> C2
-I --> C3
 ## Overview
 This project explores how to design, route, and evaluate Large Language Model (LLM) responses in a multi-agent system.
 
