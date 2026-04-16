@@ -1,1 +1,4 @@
-
+input,agent,output,issue
+"I need motivation",motivational,"You’ve got this...",none
+"Help me feel better",motivational,"Stay strong...",generic
+"Give me advice",advisory,"Here’s what you should do...",none
